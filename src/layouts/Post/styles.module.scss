@@ -1,0 +1,46 @@
+.article {
+  display: flex;
+  max-width: 700px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.informations {
+  display: flex;
+  width: 97%;
+  margin-top: 20px;
+  align-items: center;
+
+  img {
+    border-radius: 100px;
+  }
+
+  label {
+    margin-left: 10px;
+  }
+
+  label + label {
+    margin-left: auto;
+    font-weight: bold;
+  }
+}
+
+.post {
+  margin-top: 2rem;
+  line-height: 2rem;
+  font-size: 1.125rem;
+  color: var(--gray-100);
+
+  p,
+  ul {
+    margin: 1.5rem 0;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}

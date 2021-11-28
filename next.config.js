@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
-const withMDX = require('@next/mdx')()
-module.exports = withMDX({
+const { withContentlayer } = require('next-contentlayer')
+module.exports = withContentlayer()({
+  swcMinify: true,
+  // Your Next.js config...
   reactStrictMode: true,
-  pageExtensions: ['tsx', 'mdx']
+  images: {
+    domains: [
+      'avatars.githubusercontent.com', // Spotify Album Art
+    ]
+  },
 })
-
