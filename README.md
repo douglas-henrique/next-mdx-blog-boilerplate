@@ -1,8 +1,8 @@
 <a name="read-me-template" />
 
-# Next.js 12 Complete Boilerplate
+# Next.js 12 MDX Blog complete boilerplate
 
-> This is a readme from next.js 12 complete boilerplate.
+> This is a readme from next.js 12 Blog complete boilerplate.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/9868584/143581770-3d23227d-214c-4c96-8762-acb62788ad2f.png" width="200" alt="Doug Pen" /> 
@@ -21,7 +21,7 @@ Just to make your dev experience more simple :)
 <a name="description">
   <h1>Description </h1>
 </a>
-Boilerplate to help developers to have a fast project configuration using the most recent next version and some tools to improve the developer experience. 
+Blog boilerplate using Next.js 12, MDX files, contentlayer and more
 
 #### What is included?
 
