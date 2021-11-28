@@ -34,6 +34,9 @@ Boilerplate to help developers to have a fast project configuration using the mo
 - PlopJS
 - Axios
 - SWC instead of babel
+- Content Layer
+- Remark
+- Rehype
 
 ---
 
