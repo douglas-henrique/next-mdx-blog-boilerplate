@@ -1,6 +1,6 @@
 <a name="read-me-template" />
 
-# Next.js 12 MDX Blog complete boilerplate
+# Next.js 12 MDX Blog complete boilerplate [UNDER CONSTRUCTION]
 
 > This is a readme from next.js 12 Blog complete boilerplate.
 
