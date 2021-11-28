@@ -2,7 +2,7 @@ import { useMDXComponent } from 'next-contentlayer/hooks';
 import { allPosts } from '.contentlayer/data';
 import type { Post } from '.contentlayer/types'
 import { GetStaticPaths, GetStaticProps } from 'next';
-import LayoutPost from '../../layouts/post'
+import LayoutPost from '../../layouts/Post'
 
 export default function Post({ post }: { post: Post }) {
   const Component = useMDXComponent(post.body.code) 
