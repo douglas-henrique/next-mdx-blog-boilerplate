@@ -6,13 +6,13 @@
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/9868584/143581770-3d23227d-214c-4c96-8762-acb62788ad2f.png" width="200" alt="Doug Pen" /> 
-</p>
+</p> 
 
- 
 ### Table of Contents
 Just to make your dev experience more simple :) 
 
 - [Description](#description)
+- [Screenshots](#screenshots)
 - [How To Use](#how-to-use)
 - [License](#license)
 - [About me](#about-me)
@@ -38,7 +38,13 @@ Blog boilerplate using Next.js 12, MDX files, contentlayer and more
 - Remark
 - Rehype
 
----
+<a name="screenshots">
+  <h1>Screenshots</h1>
+</a>
+Blog boilerplate using Next.js 12, MDX files, contentlayer and more
+<img width="1439" alt="Screen Shot 2021-11-29 at 20 01 50" src="https://user-images.githubusercontent.com/9868584/143956600-fa1d21a9-6e4d-4b62-a4ca-cf2095f6e6b6.png">
+
+<img width="1440" alt="Screen Shot 2021-11-29 at 20 02 11" src="https://user-images.githubusercontent.com/9868584/143956605-5c353f56-4e6a-4b03-a2d6-746b981fe221.png">
 
 <a name="how-to-use">
   <h1>How To Use </h1>
