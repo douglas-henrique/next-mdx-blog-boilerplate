@@ -18,9 +18,7 @@ export default function LayoutPost({ children, post }: PropsWithChildren<{ post:
         <h1> {post.title} </h1>
         <div className={styles.informations}>
           {!!post.avatar && <Image src={post.avatar} height="30" width="30" />}
-          <label>
-            {`${post.author} - ${post.publishedAt}`}
-          </label>
+          <label>{`${post.author} - ${post.publishedAt}`}</label>
         </div>
         <div className={styles.post}>{children}</div>
       </article>
