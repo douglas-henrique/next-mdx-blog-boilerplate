@@ -1,16 +1,13 @@
 .article {
   display: flex;
-  max-width: 700px;
   flex-direction: column;
   margin-top: 20px;
 }
 
 .informations {
   display: flex;
-  width: 97%;
   margin-top: 20px;
   align-items: center;
-
   img {
     border-radius: 100px;
   }

@@ -20,11 +20,12 @@ export const Post = defineDocumentType(() => ({
   bodyType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
+    subtitle: { type: 'string', required: false },
     publishedAt: { type: 'string', required: true },
     summary: { type: 'string', required: true },
     banner: { type: 'string', required: false },
     avatar: { type: 'string', required: false},
-    author: { type: 'string', required: true }
+    author: { type: 'string', required: true },
   },
   computedFields
 }))

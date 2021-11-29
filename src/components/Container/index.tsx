@@ -1,18 +1,18 @@
-import Head from 'next/head';
-import { useRouter } from 'next/router'; 
+import Head from 'next/head'
+import { useRouter } from 'next/router'
 import styles from './Container.module.scss'
 
 export default function Container(props: any) {
-  const { children, ...customMeta } = props;
-  const router = useRouter();
+  const { children, ...customMeta } = props
+  const router = useRouter()
   const meta = {
     title: '<any title you want>',
     description: `<any description you want>`,
     image: '<any image you want>',
     type: 'website',
     twitterUser: '<your twitter user>',
-    ...customMeta
-  };
+    ...customMeta,
+  }
 
   return (
     <>
@@ -32,13 +32,9 @@ export default function Container(props: any) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
-        {meta.date && (
-          <meta property="article:published_time" content={meta.date} />
-        )}
-      </Head> 
-      <main className={styles.container}>
-        {children}
-      </main>
+        {meta.date && <meta property="article:published_time" content={meta.date} />}
+      </Head>
+      <main className={styles.container}>{children}</main>
     </>
-  );
+  )
 }
