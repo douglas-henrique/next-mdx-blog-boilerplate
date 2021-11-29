@@ -42,6 +42,7 @@ Blog boilerplate using Next.js 12, MDX files, contentlayer and more
 <a name="overview">
   <h1>Overview</h1>
 </a>
+
 - `data/*` - MDX data that is used to show your blog posts
 - `layouts/*` - Here you can set different page layouts each MDX category
 - `lib/*` - Path with helpful utilities or code for external services
