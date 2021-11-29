@@ -12,6 +12,7 @@
 Just to make your dev experience more simple :) 
 
 - [Description](#description)
+- [Overview](#overview)
 - [Screenshots](#screenshots)
 - [How To Use](#how-to-use)
 - [License](#license)
@@ -38,8 +39,9 @@ Blog boilerplate using Next.js 12, MDX files, contentlayer and more
 - Remark
 - Rehype
 
-# Overview
-
+<a name="overview">
+  <h1>Overview</h1>
+</a>
 - `data/*` - MDX data that is used to show your blog posts
 - `layouts/*` - Here you can set different page layouts each MDX category
 - `lib/*` - Path with helpful utilities or code for external services
