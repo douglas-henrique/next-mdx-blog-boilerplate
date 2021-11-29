@@ -38,6 +38,16 @@ Blog boilerplate using Next.js 12, MDX files, contentlayer and more
 - Remark
 - Rehype
 
+# Overview
+
+- `data/*` - MDX data that is used to show your blog posts
+- `layouts/*` - Here you can set different page layouts each MDX category
+- `lib/*` - Path with helpful utilities or code for external services
+- `pages/posts/*` - Static pre-rendered posts using MDX
+- `pages/*` - All other project pages
+- `public/*` - Static assets (fonts, images, etc)
+- `styles/*` - Global styles and other styles 
+
 <a name="screenshots">
   <h1>Screenshots</h1>
 </a>
